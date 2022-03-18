@@ -1,11 +1,12 @@
 body {
-  color: #40514e;
+  color: white;
+  background-color: rgb(9, 7, 26);
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 .top-container {
-  background-color: #e4fbff;
+  background-color: rgb(9, 7, 26);
   margin: 0;
   position: relative;
   padding-top: 100px;
@@ -16,7 +17,7 @@ body {
 }
 .bottom-container {
   margin: 100px 0 0 0;
-  background-color: #66bfbf;
+  background-color: #2e5757;
   position: relative;
   padding: bottom 60px;
 }
@@ -42,26 +43,57 @@ h3 {
   font-weight: 800;
 }
 .profilepara {
-  width: 50%;
+  width: 70%;
   margin: auto;
   line-height: 2;
   margin-bottom: 100px;
+}
+.moon {
+  position: absolute;
+  width: 12%;
+  margin-top: -3%;
+  margin-left: -40%;
+  opacity: 0.9;
+}
+.shooting-star {
+  position: absolute;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 30%;
+  opacity: 0.8;
+}
+.stars {
+  position: absolute;
+  width: 25%;
+  margin-top: -5%;
+  margin-left: -13%;
+  opacity: 0.05;
+  transform: rotate(20deg);
 }
 .pro {
   text-decoration: underline;
 }
 .top-cloud {
   position: absolute;
-  top: 50px;
-  right: 200px;
+  width: 20%;
+  top: 120px;
+  right: 100px;
+  opacity: 0.7;
 }
 .bottom-cloud {
   position: absolute;
+  opacity: 0.7;
+  width: 20%;
   bottom: 300px;
-  bottom: 300px;
+  left: 200px;
+}
+.mountain {
+  opacity: 0.9;
 }
 .footer-link {
   color: #11999e;
+  width: 50%;
+  margin: auto;
 }
 .skillimage1 {
   width: 25%;
@@ -74,13 +106,19 @@ h3 {
   margin-right: 30px;
 }
 .skill-row {
-  width: 50%;
+  width: 70%;
   text-align: left;
   line-height: 2;
   margin: 100px auto 100px auto;
 }
 .profilephoto {
   width: 200px;
+  border-radius: 50%;
+  background-color: rgb(9, 7, 26);
+  padding: 2px;
+  border: solid;
+  border-color: #fff9d6;
+  border-width: 10px;
   margin: 50px auto 20px auto;
 }
 hr {
@@ -105,8 +143,12 @@ hr {
   margin-bottom: 70px;
   line-height: 2;
 }
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
 .btn {
-  background: #11cdd4;
+  background: #0b7d81;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
